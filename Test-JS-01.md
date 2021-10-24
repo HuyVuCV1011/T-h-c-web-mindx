@@ -271,26 +271,7 @@ setTimeout(parallel, 10000)
 let animals = ['cat','rabbit','dog','fox','fish','racoon','tiger','bear','parrot','snake']
 ```
 
-<details>
-<summary>Đáp án</summary>
-
-```js
-let animals = ['cat','rabbit','dog','fox','fish','racoon','tiger','bear','parrot','snake']
-function createButton(inner){
-    return `
-    <button>${inner}</button>
-    `
-}
-let cont = document.getElementById("container")
-cont.insertAdjacentHTML("beforeend",animals.map(createButton).join(""))
-let btns = document.querySelectorAll("button")
-btns.forEach(btn => {
-    btn.addEventListener("click",(e)=>{
-        console.log(e.target.innerHTML)
-    })
-})
-```
-</details>
+---
 
 7. Từ câu tiếp theo trở đi sẽ sử dụng chung source code như sau. Đoạn code trên có thể chọn ngẫu nhiên 10 pokemon.
 Bạn hãy chọn 1 trong 3 câu nhỏ dưới để làm. Làm được cả 3 câu sẽ có quà riêng.

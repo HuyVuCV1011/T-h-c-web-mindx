@@ -27,7 +27,7 @@ project
 
 3. Làm một combobox như hình
 
-<img src="Source/entrance-2.gif" height=200>
+<img src="Source/entrance-1.gif" height=200>
 
 
 ---
@@ -62,7 +62,7 @@ div{
 
 4. Chỉ sử dụng CSS, hãy di chuyển vị trí các ô trở nên sang như hình mẫu với cấu trúc HTML/CSS cho sẵn
 
-<img src="Source/entrance-3.png" height=200>
+<img src="Source/entrance-2.png" height=200>
 
 ```html
 <div class="container border">
